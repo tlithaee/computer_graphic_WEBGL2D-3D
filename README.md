@@ -1,2 +1,6 @@
-# computer_graphic_WEBGL2D-3D
-implementation for computer graphic task using WEBGL
+## computer_graphic_WEBGL2D-3D
+
+### Syarifah Talitha Erfany (5025211175)
+### Grafkom-A
+
+![RGB triangle](image.png)
