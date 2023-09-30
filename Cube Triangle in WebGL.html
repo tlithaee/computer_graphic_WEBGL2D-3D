@@ -79,12 +79,12 @@ function draw() {
     
     /* Draw the six faces of a cube, with different colors. */
     
-    drawPrimitive( gl.TRIANGLE_FAN, [0,1,0,1], [ -0.9,-0.5,-0.5, -0.5,-0.3,-0.5, 0.9,-0.3,-0.2, 0.5,-0.5,-0.5 ]); 
-    drawPrimitive( gl.TRIANGLE_FAN, [1,0,0,1], [ -0.5,-0.5,0.5, 0.5,-0.5,0.5, 0.5,0.5,0.5, -0.5,0.5,0.5 ]);
-    drawPrimitive( gl.TRIANGLE_FAN, [0,0,1,1], [ -0.5,0.5,-0.5, -0.5,0.5,0.5, 0.5,0.5,0.5, 0.5,0.5,-0.5 ]);
-    drawPrimitive( gl.TRIANGLE_FAN, [1,1,0,1], [ -0.5,-0.5,-0.5, 0.5,-0.5,-0.5, 0.5,-0.5,0.5, -0.5,-0.5,0.5 ]);
-    drawPrimitive( gl.TRIANGLE_FAN, [1,0,1,1], [ 0.5,-0.5,-0.5, 0.5,0.5,-0.5, 0.5,0.5,0.5, 0.5,-0.5,0.5 ]);
-    drawPrimitive( gl.TRIANGLE_FAN, [0,1,1,1], [ -0.5,-0.5,-0.5, -0.5,-0.5,0.5, -0.5,0.5,0.5, -0.5,0.5,-0.5 ]);
+    drawPrimitive( gl.TRIANGLE_FAN, [0,1,0,1], [ -0.6,-0.5,-0.5, -0.6,0.3,-0.5, 0.3,0.3,-0.5, 0.3,-0.5,-0.5 ]); //green -front
+    drawPrimitive( gl.TRIANGLE_FAN, [1,0,1,1], [ -0.6,-0.5,0.5, -0.3,-0.3,0.5, -0.3,0.5,0.5, -0.6,0.3,0.5 ]); //pink -left
+    drawPrimitive( gl.TRIANGLE_FAN, [0,0,1,1], [ 0.6,-0.3,0.5, -0.3,-0.3,0.5, -0.3,0.5,0.5, 0.6,0.5,0.5 ]); //blue -back
+    drawPrimitive( gl.TRIANGLE_FAN, [1,1,0,1], [ -0.6,-0.5,0.5, -0.3,-0.3,-0.5, 0.6,-0.3,-0.2, 0.3,-0.5,-0.5 ]); //yellow -bottom
+    drawPrimitive( gl.TRIANGLE_FAN, [0,1,1,1], [ 0.3,-0.5,-0.5, 0.3,0.3,-0.5, 0.6,0.5,-0.5, 0.6,-0.3,-0.5 ]); //light blue -right
+    drawPrimitive( gl.TRIANGLE_FAN, [1,0,0,1], [ -0.6,0.3,-0.5, -0.3,0.5,-0.5, 0.6,0.5,-0.5, 0.3,0.3,-0.5 ]); //red -top
 }
 
 
@@ -187,7 +187,9 @@ window.onload = init;
 </head>
 <body>
 
-<h2>Kubus dibuat dengan WebGL dan glMatrix</h2>
+<h2>Syarifah Talitha Erfany (5025211175)</h2>
+<h2>Grafika Komputer A</h2>
+<h3>Kubus dibuat dengan WebGL dan glMatrix</h3>
 
 <noscript><hr><h3>This page requires Javascript and a web browser that supports WebGL</h3><hr></noscript>
 
