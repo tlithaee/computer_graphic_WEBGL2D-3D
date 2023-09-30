@@ -10,6 +10,18 @@
 
 2. Cube 3D
 
-Full view :
+- Full view :
 
-![full](image-1.png)
+![full](image-2.png)
+
+- Bottom (Yellow) and Top (Red) :
+
+![bnt](image-1.png)
+
+- Right (Light Blue) and Left (Pink) :
+
+![rnl](image-3.png)
+
+- Front (Green) and Back (Blue) :
+
+![fnb](image-4.png)
